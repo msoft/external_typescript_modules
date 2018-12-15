@@ -1,10 +1,10 @@
-import { Person, Player, CreatePlayer } from "./dependency.js";
+/// <reference path="ExternalDependency/index.d.ts" />
 
 class Startup {
 
     public static main(): number {
 
-         var player = new Player(new Person('Buffon', 'Gianluigi'));
+         var player = ExternalDependency.CreatePlayer('Buffon', 'Gianluigi');
          player.showPlayerName();
 
         return 0;
