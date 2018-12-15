@@ -1,5 +1,3 @@
-declare const $: any;
-
 class Startup {
 
         public static main(): number {
