@@ -5,8 +5,6 @@
     "module": "es6",  
     "noImplicitAny": true,                
     "esModuleInterop": true,
-    "allowJs": true,
-    "typeRoots": ["./node_modules/@types"],
-  }//,
-  // "types": [ "jquery", "datatables.net"]
+    "allowJs": true
+  }
 }
