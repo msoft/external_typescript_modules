@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/datatables.net": "^1.10.13",
+    "@types/jquery": "^3.3.27",
     "@types/node": "^9.4.7",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",

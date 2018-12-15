@@ -1,4 +1,4 @@
-declare const $: any;
+/// <reference path="node_modules/@types/jquery/index.d.ts" />
 
 class Startup {
 
