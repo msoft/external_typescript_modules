@@ -2,9 +2,24 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"> 
-        <title>Test module TS with webpack</title>
-    </head>   
-    <body>            
+        <title>JQUERY + Datatables</title>
+        <link rel="stylesheet" type="text/css" href="/datatables.net-dt/css/jquery.dataTables.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script type="text/javascript" charset="utf8" src="/jquery/dist/jquery.js" /></script>
+        <script type="text/javascript" charset="utf8" src="/datatables.net/js/jquery.dataTables.js" /></script>
+    </head>       
+    <body>     
+        <table id="table_id" class="display">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Club</th>
+                </tr>
+            </thead>
+        </table>
+
+        <button id="clickme">Click me</button>    
         <script src="app.js"    ></script>
     </body>
 </html>
